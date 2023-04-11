@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!--reset css-->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header id="top" class="header">
+            <div class="grid">           <!-- thu layout về kích thước grid đã định dạng-->
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__separate">
+                            Trang chủ
+                            <!-- <a href="" class="header__navbar--icon-link"><i class="fas fa-home"></i></a> -->
+                        </li>
+                        <li class="header__navbar-item header__navbar-item-hasqr">
+                            Contact
+                            <!-- <a href="" class="header__navbar--icon-link"><i class="fab fa-contao"></i></a> -->
+                            <div class="header__contac">
+                                <img src="./assets/img/code zalo.jpg" alt="QR code zalo" class="header__contac--qr">
+                                <div class="header__contac--fb">
+                                    <a class="contac__title" href="https://www.facebook.com/profile.php?id=100012786972096&sk=photos_by">Facebook</a>
+                                </div>
+                                
+
+                            </div> 
+                        </li>
+                    </ul>
+                    <input type="checkbox" hidden id="menu__ckeckbox">
+                    
+                    <ul class="header__navbar-list">
+                        <label for="menu__ckeckbox" class="header__navbar-item">Menu</label>
+                    </ul>
+                    <label for="menu__ckeckbox" class="navmenu__overlay"></label>
+                    <div class="navmenu__list">
+                        <label for="menu__ckeckbox" class="navmenu__list-icon"><i class="fas fa-times"></i></label>
+                        <ul class="navmenu__list-item">
+                            <li class="navmenu__item"><a href="#top">Intro</a></li>
+                            <li class="navmenu__item"><a href="#story">Story</a></li>
+                            <li class="navmenu__item"><a href="#project">Project</a></li>
+                            <li class="navmenu__item"><a href="#contact">Contact</a></li>
+                        </ul>
+                        
+                    </div>
+                 
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+        <div class="grid">
+            <div class="header__container">
+                <img  class="header__container--item header__container--item-picture" src="./assets/img/th.png" alt="my picture">
+                <ul class="header__container--item header__container--item-content">
+                    <li class="header__container--item-greeting">Yo what's up! I'm Thai 
+                        <i class="fas fa-hand-peace header__container--item-greetingicon"></i>
+                    </li>
+                    <h1 class="header__container--item-mainintroduce">Một sinh viên<br> Kỹ thuật phần mềm với niềm yêu thích lập trình FrontEnd</h1>
+                    <li style="font-size: 1.5rem;line-height: 1.8rem;text-align: justify;" class="header__container--item-discription">Em nhận thức được sự yêu thích và năng khiếu của mình về sắp xếp bố cục và sự phối hợp màu sắc.
+                        Lập trình front-end đã hiện thực hóa những ý tưởng của em và chia sẽ nó với mọi người. Em đang rất háo hức để được làm việc, tiếp xúc với những dự án thực tế. 
+                        Một phần là khẳng định khả năng của mình, phần còn lại là muốn học hỏi thêm kiến thức kinh nghiệm từ công việc thực tế.
+                    </li>
+                    <li style="margin-top: 10px; font-weight: 600;" class="header__container--item-discription">PersonalSite design in 2022</li>
+                    <li class="header__container--item-messega">Take a look, baby
+                       <i class="fas fa-arrow-down header__container--item-messegaicon"></i>
+                    </li>
+                   </ul>
+            </div>
+            <div class="body__container">
+                <div class="body__skills">
+                    <span style="color: #4571f5;" class="text">html5<i style="filter: drop-shadow(0 -5mm 6mm #4571f5)" class="text-icon fab fa-html5"></i></span>
+                    <span style="color: #fb8f31;" class="text">css3<i style="filter: drop-shadow(0 -5mm 6mm  #fb8f31);" class="text-icon fab fa-css3-alt"></i></span>
+                    <span style="color: #8a50f6;" class="text">Bootstrap<i style="left: 27%;filter: drop-shadow(0 -5mm 6mm rgb(214, 107, 247));" class="text-icon fab fa-bootstrap"></i></span>
+                    <span style="color: #eff45f;" class="text">Javascript<i style="left: 30%;filter: drop-shadow(0 -5mm 6mm   #eff45f);" class=" text-icon fab fa-js-square"></i></i></span>
+                    <span style="color: #31c5fb;" class="text">react<i style="left: 12%;filter: drop-shadow(0 -5mm 6mm #31c5fb);" class="text-icon fab fa-react"></i></span>
+                    <!-- <span style="color: #4571f5;" class="text">html5<i style="filter: drop-shadow(0 -5mm 6mm #4571f5)" class="text-icon fab fa-html5"></i></span>
+                    <span style="color: #fb8f31;" class="text">css3<i style="filter: drop-shadow(0 -5mm 6mm  #fb8f31);" class="text-icon fab fa-css3-alt"></i></span>
+                    <span style="color: #8a50f6;" class="text">Bootstrap<i style="left: 27%;filter: drop-shadow(0 -5mm 6mm rgb(214, 107, 247));" class="text-icon fab fa-bootstrap"></i></span>
+                    <span style="color: #eff45f;" class="text">Javascript<i style="left: 30%;filter: drop-shadow(0 -5mm 6mm   #eff45f);" class=" text-icon fab fa-js-square"></i></i></span>
+                    <span style="color: #31c5fb;" class="text">react<i style="left: 12%;filter: drop-shadow(0 -5mm 6mm #31c5fb);" class="text-icon fab fa-react"></i></span> -->
+                </div>
+                <div id="story" class="body__container--title">
+                    My story
+                </div>
+                <div class="boxed">
+                    <p class="boxtitle">HELLO WORLD</p>
+                </div>
+                <div  class="body__container--content">
+                    <div class="scroll">
+                        
+                    </div>
+                    <div class="scroll1">
+                        
+                    </div>
+                    <div class="scroll2">
+                    </div>
+                    <ul class="body__container--content-item body__container--content-itemstree">
+                        <li class="body__container--content-itemleaf">Now to future <br><br>Theo đuổi lập trình frontEnd</li>
+                        <li class="body__container--content-itemleaf">2019
+                           <br> <br> <span>Đỗ đại học Cần Thơ</span>
+                        </li>
+                        <li class="body__container--content-itemleaf">2017-2019<br>Ấp ủ niềm yêu thích máy tính và công nghệ từ những năm cấp 3</li>
+                       
+                    </ul>
+                </div>
+                
+                <div id="project" class="body__container--title">
+                    My Project
+                </div>
+                <div class="body__container--project">
+                    <div class="body__project--title">
+                       <p>Website bán thiết bị điện tử</p>
+                        <span>Là project cuối kỳ của Niên luận ngành Kỹ thuật Phần mềm. Sử dụng Html, Css, Bootstrap xây dựng UI cho website<br>
+                        (Vẫn đang trong quá trình phát triển)</span>
+                    </div>
+                    <div class="body__project--img">
+
+                        <div class="body__project--img-item">
+                            <img src="./assets/img/screencapture-127-0-0-1-5500-layout-index-html-2023-04-04-11_10_33.png" alt="">
+                        </div>
+                        <div class="body__project--img-item">
+                            <img style="margin-left: 10px;" src="./assets/img/screencapture-127-0-0-1-5500-layout-product-detail-html-2023-04-04-11_11_19.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="body__container--project2">
+                    
+                    <div class="body__project--title2">
+                       <h3>Website bán đồ dùng secon hand</h3>
+                        <p>Project môn Lập trình web. Xây dựng giao diện với Html, Css, chức năng với Javascript </p>
+                    </div>
+                    <div class="body__project--img2">
+
+                        <div class="body__project--img-item">
+                            <img src="./assets/img/screencapture-127-0-0-1-5500-dangky-html-2023-04-04-23_04_52.png" alt="">
+                        </div>
+                        <div class="body__project--img-item">
+                            <img style="margin-left: 10px;" src="./assets/img/screencapture-127-0-0-1-5500-trangchitiet-html-2023-04-04-23_04_12.png" alt="">
+                        </div>
+                        <div class="body__project--img-item">
+                            <img style="margin-left: 10px;" src="./assets/img/screencapture-127-0-0-1-5500-trangchu-html-2023-04-04-23_03_12.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                    
+                
+            </div>
+
+        </div>
+        </div>
+
+        <div class="slogan">
+            <h1>
+
+                NOT THING IS IMPOSSIBLE!
+            </h1>
+        </div>
+        <hr>
+
+        <footer class="footer">
+            <div id="contact" class="grid">
+                <ul class="footer__item">
+                    <li class="footer__item--contac">
+                        <b>Call me:</b> <span class="footer__sdt">0931746413</span> (zalo)
+                    </li>
+                    <li class="footer__item--contac">
+                        <b>Gmail:</b> vhthai.main@gmail.com
+                    </li>
+             
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

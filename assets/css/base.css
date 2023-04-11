@@ -1,0 +1,35 @@
+.app{
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/5585.jpg);
+}
+/* https://images.pexels.com/photos/681467/pexels-photo-681467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 */
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}/*Đặt biến*/
+*{
+    box-sizing: inherit;
+}/*apply cho tất cả file có link với base*/
+html{
+    font-size: 62.5%;/*100%=16px, 62.5%=10px*/
+    line-height: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
